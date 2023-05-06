@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="/src/main/Controller/scripts.js"></script>
+</head>
+<body>
+    <div class="socket">
+        <button class="button" id="volUp" onClick="sendData('KEY_VOLUP')">+ sound</button>
+        <button class="button" id="volDown" onClick="sendData('KEY_VOLDOWN')">- sound</button>
+        <button class="button" id="nextChannel" onClick="sendData('KEY_CHUP')">+ channel</button>
+        <button class="button" id="prevChannel" onClick="sendData('KEY_CHDOWN')">- channel</button>
+        <button class="button" id="on" onClick="sendData('KEY_POWER')">On/Off</div>
+    </div>
+</body>
+</html>

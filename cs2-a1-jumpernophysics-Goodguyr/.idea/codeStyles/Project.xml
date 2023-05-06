@@ -1,0 +1,12 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ScalaCodeStyleSettings>
+      <option name="SPACE_AFTER_TYPE_COLON" value="false" />
+      <option name="SPACE_BEFORE_BRACE_METHOD_CALL" value="false" />
+      <option name="USE_SCALADOC2_FORMATTING" value="true" />
+    </ScalaCodeStyleSettings>
+    <codeStyleSettings language="Scala">
+      <option name="SPACE_BEFORE_CLASS_LBRACE" value="false" />
+    </codeStyleSettings>
+  </code_scheme>
+</component>
